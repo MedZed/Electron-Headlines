@@ -27,7 +27,7 @@ npm start
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
 
 ## Link to final installable windows app
-[Headlines](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fih85t8hj629ag5g%2FYtb-mp3.rar%3Fdl%3D0&h=KAQFlnymx&s=1)
+[Headlines](https://github.com/MedZed/Electron-Headlines/releases/download/electron/Headlines.exe)
 
 ## Other Example Apps
 
