@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Headlines</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="style/style.css">
+	<script>window.$ = window.jQuery = require('jquery');</script>
+
+	<script>
+
+		function ajax_get_json() {
+
+			addResult();
+
+
+		}
+	</script>
+
+</head>
+
+<body>
+
+	<div class="titlebar">
+
+
+		<div class="buttons">
+			<div title="close" class="close" id='close-btn'>
+				<a class="closebutton" href="#"><span><strong></strong></span></a>
+				<!-- close button link -->
+			</div>
+			<div title="minimize" class="minimize" id="min-btn">
+				<a class="minimizebutton" href="#"><span><strong></strong></span></a>
+				<!-- minimize button link -->
+			</div>
+			<div title="This app was mad by MEDZED" class="zoom">
+				<a class="zoombutton" href="#"><span><strong></strong></span></a>
+				<!-- zoom button link -->
+			</div>
+		</div>
+
+	</div>
+	<div class="cat">
+
+<ul>
+	<li><a style="color:red;" id="business" href="#"><i class="fa fa-briefcase"></i></a></li>
+	<li><a id="entertainment" href="#"><i class="fa fa-tv"></i></a></li>
+	<li><a id="gaming" href="#"><i class="fa fa-gamepad"></i></a></li>
+	<li><a id="general" href="#"><i class="fa fa-globe"></i></a></li>
+	<li><a id="music" href="#"><i class="fa fa-music"></i></a></li>
+	<li><a id="science" href="#"><i class="fa fa-flask"></i></a></li>
+	<li><a id="sport" href="#"><i class="fa fa-futbol-o"></i></a></li>
+	<li><a id="technology" href="#"><i class="fa fa-microchip"></i></a></li>
+</ul>
+<!-- Business, entertainment, gaming, general, music, science-and-nature, sport, technology -->
+	</div>
+
+	</div>
+	<!-- <iframe src="http://www.w3schools.com"></iframe> -->
+
+	<div id="res" class="headlines cf">
+	</div>
+
+
+
+<script>
+
+</script>
+
+<script src="./js/noDragAndDrop.js"></script>
+<script src="js/buttons.js"></script>
+<script src="js/result.js"></script>
+<!-- <script src="js/menu.js"></script>
+<script src="js/downloadReady.js"></script> -->
+
+<script>
+		$(document).ready(function() {
+	// if( $('#results:empty').length ) {alert("Error");}
+
+			// $('#url').focus();
+
+			ajax_get_json();
+			document.getElementById("business").click();
+		});
+
+
+		// function playAudio() {
+		// 	var x = document.getElementById("myAudio");
+		// 	x.play();
+		// }
+</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,330 @@
+::-webkit-scrollbar {
+    width: 8px;
+
+
+
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: rgba(44, 62, 80,1.0);
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+}
+
+
+body::-webkit-scrollbar {
+    width: 0px;
+
+}
+#res{
+margin-top:75px;
+height:100vh;
+overflow:auto;
+
+
+}
+
+
+.thoseBeats_title {
+  font-size: 1.5em;
+  line-height: 200%;
+}
+
+
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+  width: 100%
+  margin: 0;
+}
+
+.headlines {
+
+-webkit-user-select: none;
+-webkit-app-region: no-drag;
+
+  width: 100%
+  background: #ddd;
+  border-bottom: 1px solid #b3b3b3;
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.25);
+}
+.headlines .headlines_wrapper {
+
+}
+.headlines .headline {
+  background-size: cover;
+  background-position: center;
+  background-color: #888;
+  -webkit-user-select: none;
+  position: relative;
+}
+.headlines .headline a {
+  -webkit-user-select: none;
+  position: absolute;
+  text-decoration: none;
+  background: black;
+  /*background: rgba(44, 62, 80,0.8);*/
+  width: 96%;
+  padding: 0.5em 2%;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+}
+.headlines .headline a h1 {
+  margin: 0 0 0.25em 0;
+  font-size: 1em;
+  font-weight: bold;
+  height: 1em;
+  overflow: hidden;
+}
+.headlines .headline a h1:after {
+  content: '...';
+  color: #fff;
+}
+.headlines .headline a time {
+  font-weight: bold;
+  color: #fff;
+}
+.headlines .headline a time:after {
+  content: ' -';
+  font-weight: normal;
+}
+.headlines .headline a p {
+  line-height: 150%;
+  color: #ccc;
+  font-size: 0.75em;
+}
+.headlines .headline-lg {
+  float: left;
+  width: 100%;
+  padding-bottom: 61.8%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#help {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40vh;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/*p {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    color: #ffffff;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.6);
+}*/
+
+
+@charset "UTF-8";
+
+/* ©2015 Johannes Jakob
+   Made with <3 in Germany */
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #000;
+    font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* window BEGIN */
+
+#Down a {
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: rgba(231, 76, 60, 1);
+    padding: 3px 5px;
+    -webkit-app-region: no-drag;
+    font-family: helvetica;
+    font-style: normal;
+}
+
+#Down a:hover {
+    background-color: rgba(231, 76, 60, 0.7);
+}
+
+#Down a:active {
+    background-color: rgba(231, 76, 60, 0.5);
+}
+
+span {
+    line-height: 9px;
+    vertical-align: 50%;
+}
+
+
+
+.cat{
+
+  position: fixed;
+  top:35px;
+  height: 40px;
+  left:0;
+  right:0;
+  z-index: 3;
+  background-color: black;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  cursor: default;
+}
+.cat ul{
+text-align: center;
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+
+}
+.cat ul li{
+
+display: inline-block;
+width: 60px;
+
+}
+.cat ul li a{
+text-decoration: none;
+color: #ffffff;
+font-size: 25px;
+line-height: 40px;
+-webkit-user-select: none;
+-webkit-app-region: no-drag;
+}
+
+/*.cat ul li a:hover{
+color: #ff6585;
+}*/
+
+
+
+
+
+
+.titlebar {
+      -webkit-user-select: none;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    position: fixed;
+    top:0;
+    z-index:2;
+    background-color:rgba(44, 62, 80,1.0);
+    font-size: 11pt;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    user-select: none;
+
+    cursor: default;
+}
+
+.buttons {
+    padding-left: 8px;
+    padding-top: 11px;
+    float: left;
+    line-height: 0px;
+    -webkit-app-region: no-drag;
+}
+
+.buttons:hover a {
+    visibility: visible;
+}
+
+.close {
+    background: #ff5c5c;
+    font-size: 9pt;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #e33e41;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.close:hover {
+    background: #c14645;
+    cursor: pointer;
+}
+
+.minimize {
+    background: #ffbd4c;
+    font-size: 9pt;
+    line-height: 11px;
+    margin-left: 4px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #e09e3e;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.minimize:active {}
+
+.minimize:hover {
+    background: #c08e38;
+    cursor: pointer;
+}
+
+.zoom {
+    background: #00ca56;
+    font-size: 9pt;
+    line-height: 11px;
+    margin-left: 6px;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #14ae46;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.zoom:hover {
+    background: #029740;
+    cursor: help;
+}
