@@ -1,6 +1,6 @@
 # Electron-Headlines
 
-![icon.png](img/News-icon.png)
+![icon.png](News-icon.png)
 
 **Clone and run for a quick way to see Electron-News-App in action.**
 
