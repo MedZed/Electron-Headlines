@@ -23,6 +23,8 @@ npm install
 # Run the app
 npm start
 ```
+## API used in this app
+[newsapi.org](https://newsapi.org/)
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
 
